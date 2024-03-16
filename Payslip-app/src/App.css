@@ -1,0 +1,93 @@
+.bg_1{
+  background: #efefef;
+}
+
+.main_text{
+  color: #333333;
+}
+
+.bg_2{
+  background: #F2F2F2
+  ;
+}
+
+.bg_3{
+  background:#bfbfbf;
+}
+
+.bg_4{
+  background: #F2F2F2;
+}
+
+.input_bg{
+  background:#EBEBEB;
+}
+
+.input_class input,textarea{
+  background:#F5F5F5;
+}
+.error-message{
+  color: red;
+}
+
+input.input-error,
+select.input-error{
+  border-color: red;
+}
+
+.image_box{
+  font: bolder;
+}
+
+.error{
+  color: red;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.error-option{
+  color: red;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.border-class{
+  border:2px solid #f5b94d;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #f5b94d;
+}
+
+.Payslip-color-1{
+  background-color: white;
+
+}
+
+.payslip-color-2{
+  background-color: white;
+}
+
+@media print{
+  .print-button{
+    display: none;
+  }
+}
+
+@media download{
+  .print-button{
+    display:none;
+  }
+}
+
+.image-class{
+  position: absolute;
+  top: 380px;
+  right: 400px;
+  border: 1px solid black;
+  width: 120px;
+  height: 140px;
+  background-color: white;
+
+  
+}
